@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Me
+title: pyCHARMM installation
 rank: 3
 ---
-Yay
+This page shows how to install pyCHARMM
