@@ -72,6 +72,14 @@ blockquote {
 #  color:#333;
 #}
 
+#pre {
+#  padding:8px 15px;
+#  background: #f8f8f8;
+#  border-radius:5px;
+#  border:1px solid #e5e5e5;
+#  overflow-x: auto;
+#}
+
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
@@ -80,11 +88,19 @@ code, pre {
 }
 
 pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
+  padding:20px;
+  background: #3A3C42;
+  color:#f8f8f2;
+  margin:0 -20px 20px;
+
+  code {
+    color:#f8f8f2;
+  }
+
+  li & {
+    margin-left:-60px;
+    padding-left:60px;
+  }
 }
 
 table {
